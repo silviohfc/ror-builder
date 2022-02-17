@@ -80,7 +80,7 @@
           "numberType": "percentage"
         },
         {
-          "name": "Radius",
+          "name": "Bustling Fungus Radius",
           "value": 3,
           "stack": "Linear",
           "add": 1.5,
@@ -117,6 +117,269 @@
           "stack": "Linear",
           "add": 75,
           "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Energy Drink",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/7e/Energy_Drink.png",
+      "description": "Sprint speed is improved by 25% (+25% per stack).",
+      "rarity": "Common",
+      "category": "Utility",
+      "stats": [
+        {
+          "name": "Sprint Speed",
+          "value": 25,
+          "stack": "Linear",
+          "add": 25,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Focus Crystal",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/5/59/Focus_Crystal.png",
+      "description": "Increase damage to enemies within 13m by 20% (+20% per stack).",
+      "rarity": "Common",
+      "category": "Damage",
+      "stats": [
+        {
+          "name": "Damage",
+          "value": 20,
+          "stack": "Linear",
+          "add": 20,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Gasoline",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/6e/Gasoline.png",
+      "description": "Killing an enemy ignites all enemies within 12m (+4m per stack) for 150% base damage. Additionally, enemies burn for 150% (+75% per stack) base damage.",
+      "rarity": "Common",
+      "category": "Damage",
+      "stats": [
+        {
+          "name": "Damage",
+          "value": 150,
+          "stack": "Linear",
+          "add": 75,
+          "numberType": "percentage"
+        },
+        {
+          "name": "Gasoline Radius",
+          "value": 12,
+          "stack": "Linear",
+          "add": 4,
+          "numberType": "meters"
+        }
+      ]
+    },
+    {
+      "name": "Lens-Maker's Glasses",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/23/Lens-Maker%27s_Glasses.png",
+      "description": "Your attacks have a 10% (+10% per stack) chance to 'Critically Strike', dealing double damage.",
+      "rarity": "Common",
+      "category": "Damage",
+      "stats": [
+        {
+          "name": "Critical Chance",
+          "value": 10,
+          "stack": "Linear",
+          "add": 10,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Medkit",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/0/0f/Medkit.png",
+      "description": "2 seconds after getting hurt, heal for 20 plus an additional 5% (+5% per stack) of maximum health.",
+      "rarity": "Common",
+      "category": "Healing",
+      "stats": [
+        {
+          "name": "Heal",
+          "value": 5,
+          "stack": "Linear",
+          "add": 5,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Monster Tooth",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/3b/Monster_Tooth.png",
+      "description": "Killing an enemy spawns a healing orb that heals for 8 plus an additional 2% (+2% per stack) of maximum health.",
+      "rarity": "Common",
+      "category": "Healing",
+      "stats": [
+        {
+          "name": "Health per Orb",
+          "value": 2,
+          "stack": "Linear",
+          "add": 2,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Paul's Goat Hoof",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/4/4a/Paul%27s_Goat_Hoof.png",
+      "description": "Increases movement speed by 14% (+14% per stack).",
+      "rarity": "Common",
+      "category": "Utility",
+      "stats": [
+        {
+          "name": "Movement Speed",
+          "value": 14,
+          "stack": "Linear",
+          "add": 14,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Personal Shield Generator",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/e/e0/Personal_Shield_Generator.png",
+      "description": "Gain a shield equal to 8% (+8% per stack) of your maximum health. Recharges outside of danger.",
+      "rarity": "Common",
+      "category": "Utility",
+      "stats": [
+        {
+          "name": "Shield",
+          "value": 8,
+          "stack": "Linear",
+          "add": 8,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Repulsion Armor Plate",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/a/aa/Repulsion_Armor_Plate.png",
+      "description": "Reduce all incoming damage by 5 (+5 per stack). Cannot be reduced below 1.",
+      "rarity": "Common",
+      "category": "Utility",
+      "stats": [
+        {
+          "name": "Damage Reduction",
+          "value": 5,
+          "stack": "Linear",
+          "add": 5,
+          "numberType": "integer"
+        }
+      ]
+    },
+    {
+      "name": "Soldier's Syringe",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f2/Soldier%27s_Syringe.png",
+      "description": "Reduce all incoming damage by 5 (+5 per stack). Cannot be reduced below 1.",
+      "rarity": "Common",
+      "category": "Damage",
+      "stats": [
+        {
+          "name": "Attack Speed",
+          "value": 15,
+          "stack": "Linear",
+          "add": 15,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Sticky Bomb",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/74/Sticky_Bomb.png",
+      "description": "5% (+5% per stack) chance on hit to attach a bomb to an enemy, detonating for 180% TOTAL damage.",
+      "rarity": "Common",
+      "category": "Damage",
+      "stats": [
+        {
+          "name": "Sticky Bomb Chance",
+          "value": 5,
+          "stack": "Linear",
+          "add": 5,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Stun Grenade",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/27/Stun_Grenade.png",
+      "description": "5% (+5% on stack) chance on hit to stun enemies for 2 seconds.",
+      "rarity": "Common",
+      "category": "Utility",
+      "stats": [
+        {
+          "name": "Stun Grenade Chance",
+          "value": 5,
+          "stack": "Hyperbolic",
+          "add": 5,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Topaz Brooch",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/c5/Topaz_Brooch.png",
+      "description": "Gain a temporary barrier on kill for 15 health (+15 per stack).",
+      "rarity": "Common",
+      "category": "Utility",
+      "stats": [
+        {
+          "name": "Barrier",
+          "value": 15,
+          "stack": "Linear",
+          "add": 15,
+          "numberType": "integer"
+        }
+      ]
+    },
+    {
+      "name": "Tougher Times",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/39/Tougher_Times.png",
+      "description": "15% (+15% per stack) chance to block incoming damage. Unaffected by luck.",
+      "rarity": "Common",
+      "category": "Utility",
+      "stats": [
+        {
+          "name": "Block Chance",
+          "value": 15,
+          "stack": "Hyperbolic",
+          "add": 15,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Tri-Tip Dagger",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/1/17/Tri-Tip_Dagger.png",
+      "description": "10% (+10% per stack) chance to bleed an enemy for 240% base damage.",
+      "rarity": "Common",
+      "category": "Damage",
+      "stats": [
+        {
+          "name": "Chance to Bleed",
+          "value": 10,
+          "stack": "Linear",
+          "add": 10,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Warbanner",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f0/Warbanner.png",
+      "description": "On level up or starting the Teleporter event, drop a banner that strengthens all allies within 16m (+8m per stack). Raise attack and movement speed by 30%.",
+      "rarity": "Common",
+      "category": "Utility",
+      "stats": [
+        {
+          "name": "Warbanner Radius",
+          "value": 16,
+          "stack": "Linear",
+          "add": 8,
+          "numberType": "meters"
         }
       ]
     }
