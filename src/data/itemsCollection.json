@@ -1,53 +1,124 @@
-[
-  {
-    "id": 1,
-    "name": "Armor-Piercing Rounds",
-    "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f0/Armor-Piercing_Rounds.png",
-    "description": "Deal an additional 20% damage (+20% per stack) to bosses.",
-    "rarity": "Common",
-    "category": "Damage",
-    "stats": [
-      {
-        "name": "Damage",
-        "value": 20,
-        "stack": "Linear",
-        "add": 20,
-        "numberType": "percentage"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Backup Magazine",
-    "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f3/Backup_Magazine.png",
-    "description": "Add +1 (+1 per stack) charge of your Secondary skill.",
-    "rarity": "Common",
-    "category": "Utility",
-    "stats": [
-      {
-        "name": "Charge",
-        "value": 1,
-        "stack": "Linear",
-        "add": 1,
-        "numberType": "integer"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Bison Steak",
-    "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/9/9f/Bison_Steak.png",
-    "description": "Increases maximum health by 25 (+25 per stack).",
-    "rarity": "Common",
-    "category": "Healing",
-    "stats": [
-      {
-        "name": "Health",
-        "value": 25,
-        "stack": "Linear",
-        "add": 25,
-        "numberType": "integer"
-      }
-    ]
-  }
-]
+{
+  "$schema": "../../data-schema.json",
+  "items": [
+    {
+      "name": "Armor-Piercing Rounds",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f0/Armor-Piercing_Rounds.png",
+      "description": "Deal an additional 20% damage (+20% per stack) to bosses.",
+      "rarity": "Common",
+      "category": "Damage",
+      "stats": [
+        {
+          "name": "Damage",
+          "value": 20,
+          "stack": "Linear",
+          "add": 20,
+          "numberType": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "Backup Magazine",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f3/Backup_Magazine.png",
+      "description": "Add +1 (+1 per stack) charge of your Secondary skill.",
+      "rarity": "Common",
+      "category": "Utility",
+      "stats": [
+        {
+          "name": "Charge",
+          "value": 1,
+          "stack": "Linear",
+          "add": 1,
+          "numberType": "integer"
+        }
+      ]
+    },
+    {
+      "name": "Bison Steak",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/9/9f/Bison_Steak.png",
+      "description": "Increases maximum health by 25 (+25 per stack).",
+      "rarity": "Common",
+      "category": "Healing",
+      "stats": [
+        {
+          "name": "Health",
+          "value": 25,
+          "stack": "Linear",
+          "add": 25,
+          "numberType": "integer"
+        }
+      ]
+    },
+    {
+      "name": "Bundle of Fireworks",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/3d/Bundle_of_Fireworks.png",
+      "description": "Activating an interactable launches 8 (+4 per stack) fireworks that deal 300% base damage.",
+      "rarity": "Common",
+      "category": "Damage",
+      "stats": [
+        {
+          "name": "Fireworks",
+          "value": 8,
+          "stack": "Linear",
+          "add": 4,
+          "numberType": "integer"
+        }
+      ]
+    },
+    {
+      "name": "Bustling Fungus",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/33/Bustling_Fungus.png",
+      "description": "After standing still for 1 second, create a zone that heals for 4.5% (+2.25% per stack) of your health every second to all allies within 3m (+1.5m per stack).",
+      "rarity": "Common",
+      "category": "Healing",
+      "stats": [
+        {
+          "name": "Health per Second",
+          "value": 4.5,
+          "stack": "Linear",
+          "add": 2.25,
+          "numberType": "percentage"
+        },
+        {
+          "name": "Radius",
+          "value": 3,
+          "stack": "Linear",
+          "add": 1.5,
+          "numberType": "meters"
+        }
+      ]
+    },
+    {
+      "name": "Cautious Slug",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/c6/Cautious_Slug.png",
+      "description": "Increases base health regeneration by +3 hp/s (+3 hp/s per stack) while outside of combat.",
+      "rarity": "Common",
+      "category": "Healing",
+      "stats": [
+        {
+          "name": "Health Regen",
+          "value": 3,
+          "stack": "Linear",
+          "add": 3,
+          "numberType": "integer"
+        }
+      ]
+    },
+    {
+      "name": "Crowbar",
+      "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/c0/Crowbar.png",
+      "description": "Deal +75% (+75% per stack) damage to enemies above 90% health.",
+      "rarity": "Common",
+      "category": "Damage",
+      "stats": [
+        {
+          "name": "Damage",
+          "value": 75,
+          "stack": "Linear",
+          "add": 75,
+          "numberType": "percentage"
+        }
+      ]
+    }
+  ]
+}
