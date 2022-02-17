@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Product",
+  "description": "A product from Acme's catalog",
+  "type": "object",
+  "properties": {
+    "items": {
+      "description": "The items collection",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "The item name",
+            "type": "string"
+          },
+          "icon": {
+            "description": "The item icon url",
+            "type": "string"
+          },
+          "description": {
+            "description": "The item description",
+            "type": "string"
+          },
+          "rarity": {
+            "description": "The item rarity",
+            "type": "string",
+            "enum": [
+              "Common",
+              "Uncommon",
+              "Legendary",
+              "Boss",
+              "Planet",
+              "Lunar",
+              "Equipment"
+            ]
+          },
+          "category": {
+            "description": "The item category",
+            "type": "string",
+            "enum": [
+              "Damage",
+              "Utility",
+              "Healing"
+            ]
+          },
+          "stats": {
+            "description": "The item stats info",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "description": "The stat name",
+                  "type": "string"
+                },
+                "value": {
+                  "description": "The stat initial value",
+                  "type": "number"
+                },
+                "stack": {
+                  "description": "The stat stack type",
+                  "type": "string",
+                  "enum": [
+                    "Linear",
+                    "Hyperbolic",
+                    "Special",
+                    "Exponential",
+                    "None"
+                  ]
+                },
+                "add": {
+                  "description": "The stat bonus value per stack",
+                  "type": "number"
+                },
+                "numberType": {
+                  "description": "The value metric type",
+                  "type": "string",
+                  "enum": [
+                    "percentage",
+                    "integer",
+                    "meters"
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "value",
+                "add",
+                "numberType"
+              ]
+            }
+          }
+        },
+        "required": [
+          "name",
+          "icon",
+          "description",
+          "rarity",
+          "category",
+          "stats"
+        ]
+      }
+    }
+  }
+}
