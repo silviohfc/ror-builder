@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Armor-Piercing Rounds",
-    "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f0/Armor-Piercing_Rounds.png/revision/latest/scale-to-width-down/256?cb=20200129193018",
+    "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f0/Armor-Piercing_Rounds.png",
     "description": "Deal an additional 20% damage (+20% per stack) to bosses.",
     "rarity": "Common",
     "category": "Damage",
@@ -13,6 +13,40 @@
         "stack": "Linear",
         "add": 20,
         "numberType": "percentage"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Backup Magazine",
+    "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f3/Backup_Magazine.png",
+    "description": "Add +1 (+1 per stack) charge of your Secondary skill.",
+    "rarity": "Common",
+    "category": "Utility",
+    "stats": [
+      {
+        "name": "Charge",
+        "value": 1,
+        "stack": "Linear",
+        "add": 1,
+        "numberType": "integer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bison Steak",
+    "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/9/9f/Bison_Steak.png",
+    "description": "Increases maximum health by 25 (+25 per stack).",
+    "rarity": "Common",
+    "category": "Healing",
+    "stats": [
+      {
+        "name": "Health",
+        "value": 25,
+        "stack": "Linear",
+        "add": 25,
+        "numberType": "integer"
       }
     ]
   }
