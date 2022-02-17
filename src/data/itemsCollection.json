@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Armor-Piercing Rounds",
+    "icon": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f0/Armor-Piercing_Rounds.png/revision/latest/scale-to-width-down/256?cb=20200129193018",
+    "description": "Deal an additional 20% damage (+20% per stack) to bosses.",
+    "rarity": "Common",
+    "category": "Damage",
+    "stats": [
+      {
+        "name": "Damage",
+        "value": 20,
+        "stack": "Linear",
+        "add": 20,
+        "numberType": "percentage"
+      }
+    ]
+  }
+]
