@@ -1,7 +1,7 @@
 import { styled } from '@stitches/react'
-import { Item } from "./components/Item"
 import { LeftPanel } from './components/LeftPanel'
 import { BuildItemsContainer } from './components/BuildItemsContainer'
+import { ItemsContainer } from './components/ItemsContainer'
 import './StyleReset.css'
 
 const Container = styled('div', {  
@@ -15,6 +15,7 @@ function App() {
     <Container>
       <LeftPanel />
       <BuildItemsContainer />
+      <ItemsContainer />
     </Container>
   )
 }

@@ -16,10 +16,10 @@ const ItemsGrid = styled('div', {
   gap: 8
 })
 
-export const BuildItemsContainer = () => {
+export const ItemsContainer = () => {
   return (
     <Container>
-      <h1>Build</h1>
+      <h1>Items</h1>
       <ItemsGrid>
         {items.map(item => <Item data={item}/>)}
       </ItemsGrid>
