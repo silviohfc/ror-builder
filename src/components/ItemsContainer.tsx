@@ -1,5 +1,5 @@
 import { styled } from "@stitches/react"
-import items from '../data/itemsCollection.json'
+import { items } from '../data/itemsCollection.json'
 import { Item } from "./Item"
 
 
@@ -21,7 +21,7 @@ export const ItemsContainer = () => {
     <Container>
       <h1>Items</h1>
       <ItemsGrid>
-        {items.map(item => <Item data={item}/>)}
+        {items.map(item => <Item data={item} />)}
       </ItemsGrid>
     </Container>
   )

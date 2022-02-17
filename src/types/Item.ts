@@ -8,7 +8,7 @@ export type ItemStat = {
 
 export type ItemProps = {
   data: {
-    id: number,
+    id?: number,
     name: string,
     icon: string,
     description: string,
