@@ -1,12 +1,21 @@
+import { styled } from '@stitches/react'
 import { Item } from "./components/Item"
-import items from './data/itemsCollection.json'
+import { LeftPanel } from './components/LeftPanel'
+import { BuildItemsContainer } from './components/BuildItemsContainer'
+import './StyleReset.css'
+
+const Container = styled('div', {  
+  height: '100vh',
+  display: 'flex',
+  justifyItems: 'space-between'
+})
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-      {items.map(item => <Item data={item}/>)}
-    </div>
+    <Container>
+      <LeftPanel />
+      <BuildItemsContainer />
+    </Container>
   )
 }
 
