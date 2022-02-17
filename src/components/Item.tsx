@@ -32,9 +32,14 @@ const ItemDivTrigger = styled('div', {
 })
 
 const writeStatValue = (value: number, valueType: string) => {
-  return valueType === 'percentage'
-    ? value + '%'
-    : value
+  switch (valueType) {
+    case 'percentage':
+      return value + '%'
+    case 'meters':
+      return value + 'm'
+    default:
+      return value
+  }
 }
 
 export const Item = (props: ItemProps) => (
