@@ -6,8 +6,8 @@ import './StyleReset.css'
 
 const Container = styled('div', {  
   height: '100vh',
-  display: 'flex',
-  justifyItems: 'space-between'
+  display: 'grid',
+  gridTemplateColumns: '296px 1fr 1fr',
 })
 
 function App() {
