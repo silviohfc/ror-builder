@@ -61,7 +61,7 @@ export const Item = (props: ItemProps) => (
                   <Td>{stat.name}</Td>
                   <Td>{stat.stack}</Td>
                   <Td>{writeStatValue(stat.value, stat.numberType)}</Td>
-                  <Td>+{writeStatValue(stat.value, stat.numberType)}</Td>
+                  <Td>+{writeStatValue(stat.add, stat.numberType)}</Td>
                 </tr>
               )
             })
